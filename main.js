@@ -50,5 +50,5 @@ function createPlayer(character, num) {
   $arena.appendChild($player);
 }
 
-console.log(createPlayer(player1, 1));
-console.log(createPlayer(player2, 2));
+createPlayer(player1, 1);
+createPlayer(player2, 2);
